@@ -13,5 +13,6 @@ class App < Sinatra::Base
   @sg = params[:]
   @sf  = params[:]
   @pf  = params[:]
-    = params[:]
+  @c = params[:]
+  end 
 end
