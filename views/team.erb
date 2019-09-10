@@ -8,13 +8,14 @@
  <form method="POST" action="/team">
   
   
-  <h1>Team Name:<input type="text" name="name"></h1>
-  <h2>Coach:<input type="text" name="coach"></h2>
-  <h2>Point Guard:<input type="text" name="point_guard"></h2>
-  <h2>Shooting Guard: <input type="text" name="shooting_guard"></h2>
-  <h2>Small Forward: <input type="text" name="small_forward"></h2>
-  <h2>Power Forward: <input type="text" name="power_forward"></h2>
-  <h2>Center: <input type="text" name="center"></h2>
+  <h1>Basketball Team! </h1>
+  Team Name: <%= @name %>
+  Coach: <%= @coach %>
+  Point Guard: <%=@pg %>
+  Power Forward: <%=@pf %>
+  Shooting Guard: <%=@sg %>
+  Small Forward: <%=@sf %>
+  Center: <%=@c %>
   
   <input type="submit" id="Submit">
 </form>
